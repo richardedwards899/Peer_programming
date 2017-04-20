@@ -17,7 +17,8 @@ class Player
   end
 
   def roll_die
-    return 5
+    return [1,2,3,4,5,6].shuffle.pop
+    # return 3
   end
 
   #moves the player according to the die
